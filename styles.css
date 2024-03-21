@@ -1,0 +1,85 @@
+#header {
+    display: flex;
+    align-self: center;
+    margin-left: 50px;
+}
+#links {
+    display: flex;
+    list-style: none;
+    align-self: center;
+    justify-content: space-between;
+    padding: 0;
+    gap: 15px;
+    margin-right: 50px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-image: url('https://files.1-background.com/images/silk/white-silk-fabric-website-background.jpg');
+}
+h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Projects, #about, #socials {
+    min-width: 500px;
+    max-width: 800px;
+}
+.RPS, .EAS, .CALC {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textDescription {
+    width: 500px;
+    height: 100px;
+    background-color: red;
+    align-items: center;
+}
+.RPS .textDescription {
+    width: 400px;
+    height: 100px;
+}
+footer {
+    position: sticky; bottom: 0;
+    justify-content: center;
+    align-items: center;
+} 
+header {
+    position: sticky; top: 0;
+    justify-content: space-between;
+}
+footer, header {
+    min-height:50px; 
+    display: flex;
+    width: 100%;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/fancy-cushion.png');
+    color: white;
+    font-size: large;
+}
+#socials {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* .popUp{
+    display: none;
+    width: 100%;
+} 
+iframe {
+    border: 0;
+} 
+a:hover + .popUp,.popUp:hover{
+    display: flex;
+    position: relative;
+    z-index: 100;
+} */
